@@ -5,63 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titan ||Day 4</title>
     
+<!----link to external css-->
+<link rel="stylesheet"href="./styles.css"/>
 
-    <style>
-        *{
-            /*color:blue;*/
-            padding:0;
-            margin:0;
-        }
-        
-        h1{
-            color:green;
-            border: 5px solid yellow;
-            padding: 50px; 
-            margin: 30px
-        
-        }
-    </style>
+<!--Internal css-->
 </head>
 <body>
     <!-- this comment -->
      <!-- Header -->
-    <section>
+    <section id="header">
          <h1 id="title1">Daily News Blog</h1>
          <p class="grow">More Information , More Knowledge </p>
     </section>
     <hr/>   
 <!-- the blog -->
  <section>
-    <h2>News Blog</h2>
+    <h2 id="newsblogid">News Blog</h2>
     <!-- Parent Div -->
      <div>
         <!-- specific blog child div-->
-        <div>
-            <h4>KENYA To Host Two Major International Conference</h4>
-            <img src="conf.jpeg" alt="Kenya Conference" width="30%">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fuga sunt qui 
-                iure totam dicta consequuntur nulla doloribus 
-                mollitia distinctio necessitatibus adipisci
-                , harum quibusdam omnis illo architecto odit
-                 similique cum.
-                </p>
-
-                <a href="https://www.citizen.digital/news/president-ruto-receives-credentials-from-5-new-ambassadors-high-commissioner-n343869" >
-                    Read More
-                </a>
-                <p>Author: Mark Alvin <span>Published Date: 18-09-2023</span></p>
-
-        </div> 
+        <div class="specificBlog">
+             <img src="conf.jpeg" alt="Kenya Conference" width="30%">
+            <div class="blogright">
+                 <h4>KENYA To Host Two Major International Conference</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fuga sunt quiure totam dicta consequuntur nulla doloribus mollitia distinctio necessitatibus adipisci, harum quibusdam omnis illo architecto odit similique cum.</p>
+                 <a href="https://www.citizen.digital/news/president-ruto-receives-credentials-from-5-new-ambassadors-high-commissioner-n343869" > Read More </a>
+                 <p>Author: Mark Alvin <span>Published Date: 18-09-2023</span></p>
+            </div>  
+        </div>        
+     </div> 
+     <hr>
        
-        <div>
-            <h4>Toyota Apologises For Cheating In Safety Tests, Halts Shipment Of Fielder, Axio Models</h4>
-        </div>
-         <img src="toyota.jpg" alt="Toyota car" width="30%"/>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque laudantium provident accusantium! Expedita exercitationem odio ducimus voluptatem aspernatur recusandae voluptates alias aut dicta amet cupiditate, incidunt ipsum eius enim facere?</p>
-         <a href="https://www.citizen.digital/business/toyota-apologizes-for-cheating-in-safety-tests-halts-shipment-of-fielder-axio-models-n343479">Read More</a>
-
-         <p>Author: Viniita <span>Published Date: 18-09-2023</span></p>
-
-        </div>
-</body>
-</html>
+        <div class="specificBlog">
+            <img src="toyota.jpg" alt="Toyota car" width="30%"/>
+            <div class="blogright">
+                 <h4>Toyota Apologises For Cheating In Safety Tests, Halts Shipment Of Fielder, Axio Models</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque laudantium provident accusantium! Expedita exercitationem odio ducimus voluptatem aspernatur recusandae voluptates alias aut dicta amet cupiditate, incidunt ipsum eius enim facere?</p>
+                 <a href="https://www.citizen.digital/business/toyota-apologizes-for-cheating-in-safety-tests-halts-shipment-of-fielder-axio-models-n343479">Read More</a>
+                 <p>Author: Viniita <span>Published Date: 18-09-2023</span></p>
+            </div>
+          
