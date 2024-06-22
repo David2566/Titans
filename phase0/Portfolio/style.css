@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: grey;
+  padding: 1em;
+}
+
+nav ul {
+  text-align: center;
+  font-size: 1.5em;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  margin-right: 6rem;
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.welcome-content {
+  background-color: pink;
+  font-size: 2em;
+  text-align: center;
+  padding: 5rem;
+}
+
+about. {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.photo {
+  display: flex;
+}
+
+.container h2 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.photo p {
+  font-size: 2rem;
+  margin: 10px 10px;
+}
+
+.button {
+  text-align: center;
+}
+
+.btn {
+  background-color: pink;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border: 1.5px solid black;
+  border-radius: 6px;
+  margin-top: 30px;
+  box-shadow: 2px 1px 9px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover{
+  color: white;
+  background-color: black;
+  border: 2px solid pink;
+}
+
+.photo img {
+  padding: 5px;
+  background-color: pink;
+  border-radius: 18px;
+  box-shadow: 2px 1px 9px rgba(0, 0, 0, 0.5);
+}
